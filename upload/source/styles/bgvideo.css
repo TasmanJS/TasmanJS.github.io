@@ -1,0 +1,44 @@
+/* Контейнер с видео */
+
+.bg-vid { 
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Обращение к самому видео и работа с ним */
+.bg-vid video { 
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* Текст в видео( на видео ) */
+
+.effect { 
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.429);
+}
+
+
+
+
+
+.videotext { 
+    color: aquamarine;
+    z-index: 2;
+    
+}
